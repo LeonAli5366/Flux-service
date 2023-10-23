@@ -53,7 +53,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", scroll);
     };
-  }, [nav]);
+  });
 
   const handleNavScroll = () => {
     ScrollToTop();

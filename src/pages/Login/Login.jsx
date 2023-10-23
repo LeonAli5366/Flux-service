@@ -4,8 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useContext } from "react";
 import { AuthContext } from "../../context api/UserContext";
-import {FcGoogle} from 'react-icons/fc'
-import toast from "react-hot-toast";
 const Login = () => {
   const navigate = useNavigate();
 

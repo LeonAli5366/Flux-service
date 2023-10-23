@@ -1,7 +1,7 @@
 import React from "react";
 
 const OurStorySingleForSmall = ({ single }) => {
-  const { _id, title, subtitle } = single;
+  const { _id, title } = single;
   return (
     <div>
       <div className=" select-none">

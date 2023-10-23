@@ -1,5 +1,5 @@
 import React from "react";
-import { freedomCarPng, jeepCar, darkBg } from "../../../assets/Callback";
+import { darkBg } from "../../../assets/Callback";
 import "./../Home.scss";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";

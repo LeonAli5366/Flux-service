@@ -2,7 +2,7 @@ import React from "react";
 import "../Home.scss";
 
 const OurStorySingleForBig = ({ single }) => {
-  const { _id, title, subtitle } = single;
+  const { _id, title } = single;
 
   return (
     <div>

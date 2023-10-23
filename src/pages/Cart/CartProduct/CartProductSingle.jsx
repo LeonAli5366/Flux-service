@@ -1,16 +1,12 @@
 import React from "react";
 import "../Cart.scss";
-import {
-  handleQuantityDecrease,
-  handleQuantityIncrease,
-  handleRemove,
-} from "../../../components/LocalStorage/LocalStorage";
+
 import { useContext } from "react";
 import { CartContext } from "../../../context api/AddToCartContext";
 const CartProductSingle = ({ product }) => {
   const { name, price, _id } = product.product;
   // context api
-  const { products, setCartLength, cartLength } = useContext(CartContext);
+  const { setCartLength, cartLength } = useContext(CartContext);
   // functions
   const handleRemoveButton = () => {
     fetch(`https://flux-server-lu38.onrender.com/api/v1/cart/${product._id}`, {

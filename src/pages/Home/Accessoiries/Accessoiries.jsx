@@ -1,7 +1,6 @@
 import React from "react";
 import { solarCar } from "../../../assets/Callback";
 import "./../Home.scss";
-import Form from "../../../components/Form/Form";
 import { Link } from "react-router-dom";
 
 const Accessoiries = () => {
